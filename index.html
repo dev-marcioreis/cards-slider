@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Swiper========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!--========CSS========-->
+    <link rel="stylesheet" href="style.css">
+    <title>Card Slider</title>
+</head>
+
+<body>
+
+   <!--========Swiper========-->
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="card swiper-slide sl1">
+                <div class="card__image">
+                    <img src="img/avatar1.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Marcio Obeard</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/avatar2.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Joice Dglasses</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide sl1">
+                <div class="card__image">
+                    <img src="img/avatar3.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Ryu Dostreet</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/avatar4.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Britney Aspeers</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide sl1">
+                <div class="card__image">
+                    <img src="img/avatar5.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Luci Theviolet</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/avatar6.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Morgana Oranhair</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide sl1">
+                <div class="card__image">
+                    <img src="img/avatar7.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Gisele Model</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card__image">
+                    <img src="img/avatar8.png">
+                </div>
+                <div class="card__content">
+                    <span class="card__title">Amanda NonBlond</span>
+                    <span class="card__name">Desenvolvedor Front-end</span>
+
+                    <p class="card__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorem accusantium autem! Laborum necessitatibus, nam, dolor deleniti odit.</p>
+                    <button class="card__btn">Ver mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+     <!--========Swiper JS========-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!--========Swiper JS========-->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         effect: "coverflow",
+         grabCursor: true,
+         centeredSlides: true,
+         slidesPerView: "auto",
+         coverflowEffect: {
+           rotate: 0,
+           stretch: 0,
+           depth: 300,
+           modifier: 1,
+           slideShadows: false,
+         },
+         pagination: {
+           el: ".swiper-pagination",
+         },
+       });
+     </script>
+
+</body>
+</html>
