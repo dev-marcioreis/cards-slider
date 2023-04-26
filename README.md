@@ -6,7 +6,7 @@ Um slider desenvolvido em Swiper.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 HTML + CSS + JavaScript + Swiper
 
 ## ✒️ Autor
